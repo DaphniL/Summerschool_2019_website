@@ -290,6 +290,7 @@ input, select, textarea {
 
 /* Row */
 
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -500,6 +501,11 @@ input, select, textarea {
 		.row.gtr-150 {
 			margin-top: 0;
 			margin-left: -3em;
+		}
+
+		.boxed{
+			border: 3px solid #808080;
+			padding: 1em
 		}
 
 			.row.gtr-150 > * {
@@ -2892,8 +2898,8 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
+		background-image: url("images/pic_classroom_empty_kopie2.jpg"),url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-position: center center,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
