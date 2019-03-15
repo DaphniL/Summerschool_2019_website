@@ -3500,3 +3500,15 @@ input, select, textarea {
 			}
 
 	}
+
+	/*  Custom Styles */
+
+	nav > p {
+		margin: .2em;
+	}
+	nav > p > a {
+		color: #000;
+		font-style: none;
+		border-bottom: none;
+		padding: .5em;
+	}
